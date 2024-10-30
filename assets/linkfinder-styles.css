@@ -1,0 +1,117 @@
+a {
+  cursor: pointer;
+}
+
+.linkfinder-page label {
+  vertical-align: unset;
+}
+
+table.linkfinder-table th,
+table.linkfinder-table td {
+  vertical-align: middle;
+}
+
+table.linkfinder-table tbody th,
+table.linkfinder-table tbody td {
+  border-bottom: 1px solid #c3c4c7;
+}
+
+table.linkfinder-table tfoot td,
+table.linkfinder-table tfoot th {
+  border-top: none !important;
+}
+
+table.linkfinder-table tr>th:first-of-type,
+table.linkfinder-table tr>td:first-of-type {
+  border-left: 4px solid transparent;
+}
+
+table.linkfinder-table tr.linkfinder-tr-warning:not(.linkfinder-resolved)>th:first-of-type,
+table.linkfinder-table tr.linkfinder-tr-warning:not(.linkfinder-resolved)>td:first-of-type {
+  border-left: 4px solid #ffdd99;
+}
+
+table.linkfinder-table tr.linkfinder-tr-warning:not(.linkfinder-resolved)>th,
+table.linkfinder-table tr.linkfinder-tr-warning:not(.linkfinder-resolved)>td {
+  background-color: #ffffdf;
+}
+
+table.linkfinder-table tr.linkfinder-tr-error:not(.linkfinder-resolved)>th:first-of-type,
+table.linkfinder-table tr.linkfinder-tr-error:not(.linkfinder-resolved)>td:first-of-type {
+  border-left: 4px solid #ffb3b3;
+}
+
+table.linkfinder-table tr.linkfinder-tr-error:not(.linkfinder-resolved)>th,
+table.linkfinder-table tr.linkfinder-tr-error:not(.linkfinder-resolved)>td {
+  background-color: #ffdfdf;
+}
+
+table.linkfinder-table.linkfinder-hide-errors tbody>tr.linkfinder-tr-error {
+  display: none;
+}
+
+table.linkfinder-table.linkfinder-hide-warnings tbody>tr.linkfinder-tr-warning {
+  display: none;
+}
+
+table.linkfinder-table.linkfinder-hide-other tbody>tr:not(.linkfinder-tr-error):not(.linkfinder-tr-warning) {
+  display: none;
+}
+
+table.linkfinder-table th.linkfinder-sortable {
+  cursor: pointer;
+}
+
+table.linkfinder-table th.linkfinder-sorted-asc::after {
+  content: '\f142';
+  font: normal 20px/1 dashicons;
+  vertical-align: top;
+}
+
+table.linkfinder-table th.linkfinder-sorted-desc::after {
+  content: '\f140';
+  font: normal 20px/1 dashicons;
+  vertical-align: top;
+}
+
+.linkfinder-loader {
+  display: inline-block;
+  width: 20px;
+  vertical-align: text-bottom;
+  color: #2271b1;
+  text-align: center;
+  outline: none;
+  box-shadow: none !important;
+  /* cursor: wait !important; */
+}
+
+.linkfinder-loader>div {
+  display: block;
+  padding-top: 100%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-radius: 50%;
+  border-color: #2271b1;
+  -webkit-animation: linkfinder-loader 1s linear infinite;
+  animation: linkfinder-loader 1s linear infinite;
+}
+
+@-webkit-keyframes linkfinder-loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes linkfinder-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

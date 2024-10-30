@@ -1,0 +1,159 @@
+# This file is distributed under the same license as the plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: linkfinder\n"
+"Report-Msgid-Bugs-To: Bob Vandevliet <linkfinder@bvandevliet.nl>\n"
+"POT-Creation-Date: 2022-01-24 16:29+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bob Vandevliet <linkfinder@bvandevliet.nl>\n"
+"Language-Team: linkfinder@bvandevliet.nl\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: linkfinder\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/settings.php:31
+msgid ""
+"Link Finder will parse the links in the content of all your posts "
+"and pages.<br>\n"
+"            Depending on the size of your website and the amount "
+"of links, this could take a moment.<br>\n"
+"            Links to admin-pages are ignored.<br>\n"
+"            <strong>Please note that sometimes links may appear "
+"false-positive, always follow the link manually to confirm before "
+"making changes!</strong>"
+msgstr ""
+
+#: admin/settings.php:41
+msgid "All links that resulted in a status code of 400~599."
+msgstr ""
+
+#: admin/settings.php:43
+msgid "errors"
+msgstr ""
+
+#: admin/settings.php:45
+msgid ""
+"All links on published posts that are internal or resulted in a "
+"status code of 300~399."
+msgstr ""
+
+#: admin/settings.php:47
+msgid "warnings"
+msgstr ""
+
+#: admin/settings.php:49
+msgid ""
+"All other links that didn't result in a status code of 200~299."
+msgstr ""
+
+#: admin/settings.php:51
+msgid "other"
+msgstr ""
+
+#: admin/settings.php:58 admin/settings.php:69
+msgid "Status code"
+msgstr ""
+
+#: admin/settings.php:59 admin/settings.php:70
+msgid "Post title (edit-link)"
+msgstr ""
+
+#: admin/settings.php:60 admin/settings.php:71
+msgid "Post type"
+msgstr ""
+
+#: admin/settings.php:61 admin/settings.php:72
+msgid "Post status"
+msgstr ""
+
+#: admin/settings.php:62 admin/settings.php:73
+msgid "<elem attr="
+msgstr ""
+
+#: admin/settings.php:63 admin/settings.php:74
+msgid "Original hyperlink"
+msgstr ""
+
+#: admin/settings.php:65 admin/settings.php:76
+msgid "New hyperlink"
+msgstr ""
+
+#: admin/settings.php:127
+msgid "Apply changes"
+msgstr ""
+
+#: admin/settings.php:129
+msgid "OR apply changes while .."
+msgstr ""
+
+#: admin/settings.php:132
+msgid "allowing self-pings (default)"
+msgstr ""
+
+#: admin/settings.php:135
+msgid "avoiding self-pings"
+msgstr ""
+
+#: admin/settings.php:137
+msgid "About self-pings"
+msgstr ""
+
+#: admin/settings.php:139
+msgid "Changes are irreversable!"
+msgstr ""
+
+#: admin/settings.php:141
+msgid "Rate this plugin"
+msgstr ""
+
+#: admin/settings.php:183
+msgid ""
+"Something went wrong, not all hyperlinks were updated! Remaining "
+"issues will reappear in the list."
+msgstr ""
+
+#: admin/settings.php:189
+msgid ""
+"Hyperlinks updated. If there are any remaining issues, they will "
+"(re)appear in the list."
+msgstr ""
+
+#: linkfinder.php:66
+msgid "Find them!"
+msgstr ""
+
+#: linkfinder.php:67
+msgid "Rate"
+msgstr ""
+
+#: linkfinder.php:87 linkfinder.php:88
+msgid "Link Finder"
+msgstr ""
+
+#: linkfinder.php:117
+msgid "Save changes"
+msgstr ""
+
+#: linkfinder.php:152
+msgid "Something went wrong, please try again!"
+msgstr ""
+
+#: linkfinder.php:184
+msgid "(don't change)"
+msgstr ""
+
+#: linkfinder.php:185
+msgid "Follow link to retrieve final URL .."
+msgstr ""
